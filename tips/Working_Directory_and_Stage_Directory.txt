@@ -2,4 +2,4 @@ Repository: 'git/'
     Stage directory is in it.
     Branch master is created in it.
     HEAD pointer is also in it.
-
+Working Directory: the whole file fold.
