@@ -11,4 +11,6 @@ git branch
 git merge dev
   Attenton: you should switch the branch master, then use this command.
 
+git merge --no-ff -m "merge with no-ff" dev
+
 git branch -d dev
