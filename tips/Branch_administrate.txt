@@ -1,2 +1,9 @@
 git checkout -b dev
   equal to "git branch dev" ADD "git checkout dev"
+
+git checkout dev
+
+git merge dev
+  Attenton: you should switch the branch master, then use this command.
+
+git branch -d dev
