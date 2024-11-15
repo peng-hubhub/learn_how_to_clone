@@ -1,3 +1,8 @@
 git add readme.txt
 
 git commit -m "Create a file."
+
+git status
+
+git diff readme.txt
+Attention:the up command only be used when you modify file and you do not add it.
