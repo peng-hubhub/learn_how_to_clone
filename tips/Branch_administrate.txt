@@ -12,5 +12,6 @@ git merge dev
   Attenton: you should switch the branch master, then use this command.
 
 git merge --no-ff -m "merge with no-ff" dev
-
+  You can check the information of the branch dev by using command: 
+    "git log --graph --pretty=oneline --abbrev-commit"
 git branch -d dev
