@@ -6,3 +6,8 @@ git status
 
 git diff readme.txt
 Attention:the up command only be used when you modify file and you do not add it.
+
+git log
+
+git log --pretty=oneline
+Show log info oneline.
