@@ -5,14 +5,21 @@ git commit -m "Create a file."
 git status
 
 git diff readme.txt
-Attention:the up command only be used when you modify file and you do not add it.
+  Attention:the up command only be used when you modify file and you do not add it.
 
 git log
 
 git log --pretty=oneline
-Show log info oneline.
+  Show log info oneline.
 
 git reset --hard HEAD^
-parameter 'head' means the vetsion will backward the before commited version.
-'soft' means the version will backward the before uncommited and unadded version.
-'mixed' means the version will backward the before uncommited but added version.
+  Parameter 'head' means the vetsion will backward the before commited version.
+  'soft' means the version will backward the before uncommited and unadded version.
+  'mixed' means the version will backward the before uncommited but added version.
+
+  the number with '^' can backward multi-version.
+
+git reflog
+  Show all version number.
+
+git reset --hard version_number(partly)
