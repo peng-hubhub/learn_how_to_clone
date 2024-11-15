@@ -3,6 +3,9 @@ git checkout -b dev
 
 git checkout dev
 
+git branch
+  look the branch existed.
+
 git merge dev
   Attenton: you should switch the branch master, then use this command.
 
