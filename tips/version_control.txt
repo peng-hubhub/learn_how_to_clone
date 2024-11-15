@@ -11,3 +11,8 @@ git log
 
 git log --pretty=oneline
 Show log info oneline.
+
+git reset --hard HEAD^
+parameter 'head' means the vetsion will backward the before commited version.
+'soft' means the version will backward the before uncommited and unadded version.
+'mixed' means the version will backward the before uncommited but added version.
