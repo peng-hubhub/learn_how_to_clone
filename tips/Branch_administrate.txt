@@ -1,0 +1,2 @@
+git checkout -b dev
+  equal to "git branch dev" ADD "git checkout dev"
