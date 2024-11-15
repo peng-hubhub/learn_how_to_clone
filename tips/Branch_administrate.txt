@@ -15,3 +15,15 @@ git merge --no-ff -m "merge with no-ff" dev
   You can check the information of the branch dev by using command: 
     "git log --graph --pretty=oneline --abbrev-commit"
 git branch -d dev
+
+git stash
+
+git stash list
+
+git stash apply + git stash drop
+  equal to git stash pop
+  In addition, git satsh apply stash@{0}
+    restore the specific stash.
+
+git cherry-pick commitment_number
+  copy the specific modification to the current branch
