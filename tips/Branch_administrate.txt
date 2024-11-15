@@ -1,7 +1,9 @@
 git checkout -b dev
   equal to "git branch dev" ADD "git checkout dev"
+  equal to git switch -c dev 
 
 git checkout dev
+  equal to git switch dev
 
 git branch
   look the branch existed.
